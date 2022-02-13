@@ -15,31 +15,31 @@ class Destacado extends Migration
                 "unsigned"       => true,
                 "auto_increment" => true
             ],
-            "una_estrella" = [
+            "una_estrella" => [
                 "type"           => "INT",
                 "constraint"     => 5,
                 "default"        => 0
             ],
-            "dos_estrella" = [
+            "dos_estrella" => [
                 "type"           => "INT",
                 "constraint"     => 5,
                 "default"        => 0
             ],
-            "tres_estrella" = [
+            "tres_estrella" => [
                 "type"           => "INT",
                 "constraint"     => 5,
                 "default"        => 0
             ],
-            "cuatro_estrella" = [
+            "cuatro_estrella" => [
                 "type"           => "INT",
                 "constraint"     => 5,
                 "default"        => 0
             ],
-            "cinco_estrella" = [
+            "cinco_estrella" => [
                 "type"           => "INT",
                 "constraint"     => 5,
                 "default"        => 0
-            ],
+            ]
         ]);
         
         $this->forge->addKey("id_destacado", true);
