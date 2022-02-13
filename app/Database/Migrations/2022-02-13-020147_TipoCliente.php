@@ -8,7 +8,6 @@ class TipoCliente extends Migration
 {
     public function up()
     {
-        
         $this->forge->addField([
             // Nombre del campo y sus atributos
             "id_tipo_cliente" => [
@@ -33,14 +32,11 @@ class TipoCliente extends Migration
 
         $this->forge->addKey("id_tipo_cliente", true); // Agregar la llave primaria
         $this->forge->createTable("tipo_clientes", true); // Crear la tabla
-
     }
 
     public function down()
     {
-        
         // Cuando ejecutamos php spark migrate:refresh se ejecuta esta parte para borrar la tabla
         $this->forge->dropTable("tipo_clientes", true);
-
     }
 }
