@@ -25,7 +25,7 @@ class DetalleVenta extends Migration
                 "type"           => "INT",
                 "constraint"     => 5,
                 "unsigned"       => true,
-            ],
+            ]
         ]);
 
         $this->forge->addKey("id_detalle_venta", true);

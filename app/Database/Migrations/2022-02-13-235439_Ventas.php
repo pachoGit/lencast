@@ -32,8 +32,7 @@ class Ventas extends Migration
             ],
             "fecha_venta"        => [
                 "type"           => "DATE",
-                "constraint"     => 8,
-                "null"       => true,
+                "null"           => true,
             ],
             "sub_total_venta"    => [
                 "type"           => "INT",
