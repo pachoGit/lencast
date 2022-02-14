@@ -33,12 +33,12 @@ class Ventas extends Migration
             "fecha_venta"        => [
                 "type"           => "DATE",
                 "constraint"     => 8,
-                "unsigned"       => true,
+                "null"       => true,
             ],
             "sub_total_venta"    => [
                 "type"           => "INT",
                 "constraint"     => 11,
-                "unsigned"       => true,
+                "null"       => true,
             ],
             "igv"            => [
                 "type"       => "INT",

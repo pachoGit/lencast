@@ -19,7 +19,7 @@ class DetalleVenta extends Migration
                 "type"           => "INT",
                 "constraint"     => 5,
                 "unsigned"       => true,
-                "auto_increment" => true
+                "unsigned"       => true
             ],
             "id_producto"        => [
                 "type"           => "INT",

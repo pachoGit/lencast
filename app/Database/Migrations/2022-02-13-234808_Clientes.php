@@ -23,12 +23,12 @@ class Clientes extends Migration
                 "dni"            => [
                 "type"           => "VARCHAR",
                 "constraint"     => 8,
-                "unsigned"       => true,
+                "null"       => true,
             ],
                 "ruc"            => [
                 "type"           => "VARCHAR",
                 "constraint"     => 11,
-                "unsigned"       => true,
+                "null"       => true,
             ],
             "nombre_cliente" => [
                 "type"       => "VARCHAR",
